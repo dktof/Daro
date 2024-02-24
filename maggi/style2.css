@@ -1,0 +1,74 @@
+/* Import Google font - Poppins */
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background: #E3F2FD;
+  }
+  .chatbot{
+      right: 35px;
+      position: fixed;
+      bottom: 300px;
+      outline: none;
+      border: none;
+      height: 230px;
+      display: flex;
+      cursor: pointer;
+      justify-content: center;
+      border-radius: 20%;
+      background: lightblue;
+      transition: all 0.2s ease;
+      position: fixed;
+      bottom: 90px;
+      width: 200px;
+      border-radius: 15px;
+      opacity: 1;
+      transform: scale(1.0);
+      transform-origin: bottom right;
+      box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                  0 32px 64px -48px rgba(0,0,0,0.5);
+  }
+  .chatbot1{
+      right: 35px;
+      position: fixed;
+      bottom: 300px;
+      outline: none;
+      border: none;
+      height: 275px;
+      display: flex;
+      cursor: pointer;
+      justify-content: center;
+      border-radius: 20%;
+      background: lightblue;
+      transition: all 0.2s ease;
+      position: fixed;
+      bottom: 90px;
+      width: 200px;
+      border-radius: 15px;
+      opacity: 1;
+      transform: scale(1.0);
+      transform-origin: bottom right;
+      box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                  0 32px 64px -48px rgba(0,0,0,0.5);
+  }
+  h2{
+      text-decoration: underline;
+  }
+  a{
+    border-radius: 30px;
+    background: lightcyan;
+  }
+  button{
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  div{
+    cursor: pointer;
+  }

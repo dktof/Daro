@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: rgb(111, 0, 255);
+}
+p{
+    background-color: rgb(105, 78, 140);
+    width: 150px;
+    margin-left: 220px;
+    text-decoration: underline;
+    border-radius: 2px;
+}
+.div1{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+    margin-left: 350px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+h1{
+    text-decoration: underline;
+}
+
+
+
+.div2{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+    margin-left: 350px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    margin-top: 10px;
+}
+.chat-input input {
+    border: none;
+    outline: none;
+    resize: none;
+    max-height: 180px;
+    padding: 15px 15px 15px 0;
+    font-size: 0.95rem;
+  }
+  .chat-input button {
+    color: #724ae8;
+    cursor: pointer;
+    visibility: hidden;
+  }
+  .chat-input input:valid ~ button {
+    visibility: visible;
+  }
+ input{
+    height: 1px;
+ }
+ a{
+    margin-left: 600px;
+ } 

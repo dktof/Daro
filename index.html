@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        input{
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="a1">Login</h1>
+        <form id="registrationForm">
+            <label for="username">Username:</label>
+            <input type="text" id="loginUsername" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="text" id="loginPassword" required>
+            <br>
+            <button type="submit" onclick="myFunction()">Login</button>
+            <br>
+            <hr>
+           <p style="text-align: center;">Already have accunt <a href="./index2.html">Register</a></p>
+           <hr>
+            <audio src="./print1.m4a" controls></audio>
+    </fieldset>
+    <script>
+            function myFunction() {
+                let uname = document.getElementById('loginUsername');
+                let pname = document.getElementById('loginPassword');
+
+                if(uname == 'dami' || pname == 'kas'){
+                    window.location.href = "./home/home.html";
+                } else {
+                    alert('unable to log you in,check username and password.\nFor more info lisen to audio');
+                }
+            }
+    </script>
+</body>
+</html>
